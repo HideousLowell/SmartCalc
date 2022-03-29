@@ -1,6 +1,6 @@
 #include "controller.h"
 
-namespace s21 {
+namespace SmartCalc {
 
 bool Controller::set_validate_data(const std::string &input) {
     main_model->set_data(input);
@@ -26,4 +26,4 @@ std::vector<double> Controller::dif(double amount, int term, double rate) {
     return credit_model->dif_payment(amount, term, rate);
 }
 
-}  // namespace s21
+}  // namespace SmartCalc
