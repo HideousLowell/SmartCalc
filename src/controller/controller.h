@@ -5,7 +5,7 @@
 #include "../model/credit_model.h"
 #include "../model/model.h"
 
-namespace SmartCalc {
+namespace s21 {
 
 class Controller {
  private:
@@ -22,4 +22,4 @@ class Controller {
     std::vector<double> dif(double amount, int term, double rate);
 };
 
-}  // namespace SmartCalc
+}  // namespace s21
