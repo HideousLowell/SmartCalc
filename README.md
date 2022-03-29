@@ -1,5 +1,5 @@
 # SmartCalc
-## Implementation of a graphical calculator with the ability to build graphs, calculate loan payments. 
+## Graphical calculator with the ability to build graphs, calculate loan payments. 
 ## C++17, QT 6.2.3
 ### The program implemented using the MVC pattern
 
