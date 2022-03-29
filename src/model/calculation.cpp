@@ -4,7 +4,7 @@
 #include "model.h"
 #include "polish_notation.h"
 
-namespace SmartCalc {
+namespace s21 {
 
 static void use_operators(std::stack<double> *buf, char operation) {
     double n{buf->top()};
@@ -113,4 +113,4 @@ void Model::calculate_for_plot(std::vector<double> *x, std::vector<double> *y, c
         x_pos += step;
     }
 }
-}  // namespace SmartCalc
+}  // namespace s21
